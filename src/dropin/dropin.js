@@ -4,7 +4,7 @@ getClientKey().then(clientKey => {
         // 1. Create an instance of AdyenCheckout
         const checkout = new AdyenCheckout({
             environment: 'test',
-            clientKey: clientKey, // Mandatory. clientKey from Customer Area
+            clientKey: test_H5T4RJ2U5ZCALOYK46JK7T6IK4RW655F, // Mandatory. clientKey from Customer Area
             paymentMethodsResponse,
             removePaymentMethods: ['paysafecard', 'c_cash']
         });
